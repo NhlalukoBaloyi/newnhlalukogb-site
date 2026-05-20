@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact.me</title>
+      <style>
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Tahoma", sans-serif;
+}
+.contact{
+      background-color: rgb(125, 109, 2);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+form {
+      border: solid white;
+      display: flex;
+      flex-direction: column;
+      height: 55vh;
+      width: 60%;
+      padding: 1.2rem;
+      border-radius: 0.5rem;
+}
+form input,textarea{
+      border: none;
+      padding: 3px;
+}
+.group{
+      display: flex;
+      flex-direction: column;
+      margin: 0.2rem;
+}
+.name-group{
+      display: flex;
+      gap: 10px;
+      width: 100%;
+}
+.name-group > div{
+      width: 50%;
+}
+.names{
+      display: flex;
+      flex-direction: column;
+      font-size: x-small;
+}
+.contact-intro{
+      margin: 1rem;
+}
+form input {
+      height: 30px;
+}
+form button {
+      height: 35px;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 3px;
+}
+.compulsory{
+      color: rgb(0, 0, 0);
+      font-size: larger;
+}
+
+
+@media (max-width: 768px){
+     .group{
+      width: 350px;
+     } 
+}
+      </style>
+</head>
+<body>
+      <section class="contact">
+            <div class="contact-intro">
+                  <h1>LET'S CHAT</h1>
+                  <p>I am currently available for freelance work, internships, and entry level positions.</p>
+            </div>
+      <form action="">
+            <div class="group">
+                  <label for="names">Name<span class="compulsory">*</span></label>
+                        <div class="name-group">
+                              <div class="names">
+                                    <input type="text" required>
+                                    <label for="name">First Name</label>
+                              </div>
+                              <div class="names">
+                                    <input type="text" required>
+                                    <label for="surname">Last Name</label>
+                              </div>
+                        </div>
+                  </div>
+
+            <div class="group">
+                  <label for="email">Email<span class="compulsory">*</span></label>
+                        <input type="text" placeholder="example@gmail.com" name="email" required>
+            </div>
+            <div class="group">
+                  <Label for="meassage" >Leave a Message<span class="compulsory">*</span></Label>
+                        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            </div>
+            <div class="group">
+                  <button type="submit">Send Message</button>
+            </div>
+      </form>
+      </section>
+            <div class="footer-belt">
+                  <p>&copy 2026 Nhlaluko Gift Baloyi Portfolio. All Rights Reserved</p>
+            </div>
+</body>
+</html>

@@ -1,0 +1,391 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      }
+
+body {
+      font-family: "Rubik", sans-serif;
+      overflow-x: hidden;
+      }
+.menu{
+      display: none;
+}
+nav {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      border-bottom: 1px solid #ffffff8e;
+      background-color: rgb(125, 109, 2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      }
+
+nav a {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: large;
+      transition: 0.3s;
+      }
+.nav-links{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.dropdown-toggle:hover{
+      color: rgb(255, 145, 0);
+}
+.dropdown{
+      position: relative;
+}
+.dropdown-menu{
+      position: absolute;
+      display: none;
+      background: rgb(125, 109, 2);
+      top: 100%;
+      left: 0;
+      min-width: 120px;
+      flex-direction: column;
+      z-index: 5;
+}
+.dropdown-menu a{
+      display: block;
+      padding: 10px;
+}
+.dropdown-menu a:hover{
+      color: rgb(255, 72, 0);
+}
+
+.phone{
+      background-color: rgb(9, 59, 10);
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      }
+.nav-links > a:hover {
+      color: rgb(255, 145, 0);
+      border-bottom: solid rgb(255, 255, 255);
+      }
+.home_sec {
+      background-image: url(photos/suityourself.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 55vh;
+      position: relative;
+      }
+#github {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 10px;
+      bottom: 20px;
+      color: white;
+      background-color: rgb(125, 109, 2);
+      text-decoration: none;
+      text-align: center;
+      border: solid white;
+      width: 80px;
+      height: 30px;
+      }
+.home_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+      }
+.home_info{
+      color: white;
+      width: 55%;
+      padding: 20px;
+      }
+.home_info >h1{
+      font-weight: 800;
+      font-size:3vw ;
+      }
+.home_info >p{
+      font-size: 13px;
+      }
+.btn > button{
+      background: none;
+      color: rgb(254, 254, 254);
+      border: solid white;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      }
+.About_sec{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 60vh;
+      padding: 8px;
+      }
+.about_contnt{
+      color: rgb(255, 255, 255);
+      background-color: rgba(122, 106, 5);
+      padding: 2rem;
+      }
+.about_contnt p{
+      font-size: 14px;
+      text-align: justify;
+      }
+.about_contnt div h2{
+      text-align: center ;
+      text-decoration: underline;
+      margin-bottom: 40px;
+      }
+.about_phot img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+.skills-sec{
+      background-color: rgba(122, 106, 5, 0.752);
+      min-height: 60vh;
+      min-width: 100%;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding: 2rem;
+      }
+.sk-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 98%;
+      gap: 20px;
+      }
+.box1{
+      background-color: rgba(122, 106, 5);
+      padding: 10px;
+      min-width:30%;
+      height: 35vh;
+      border: 3px solid white;
+      }
+.box2{
+      background-color: rgba(122, 106, 5);
+      padding: 10px;
+      min-width:30%;
+      height: 35vh;
+      border: 3px solid white;
+      }
+.box3{
+      background-color: rgba(122, 106, 5);
+      padding: 10px;
+      min-width: 30%;
+      height: 35vh;
+      border: 3px solid white;
+      }
+
+.footer_info{
+      background-color: rgb(18, 102, 15);
+      color: rgb(255, 255, 255);
+      min-height: 15vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 1rem;
+}
+.footer_info div {
+      padding: 1rem;
+}
+.footer_info div a {
+      text-decoration: none;
+      color: gold;
+}
+.footer_info > div > h3{
+      color: rgb(255, 255, 255);
+}
+.footer_info div a:hover{
+      color: rgb(24, 8, 118);
+      text-decoration: underline;
+}
+.footer-belt{
+      height: 5vh;
+      text-align: center;
+      padding: 0.5rem;
+      background-color: rgb(21, 129, 17);
+}
+.footer-belt p {
+      font-size:9px;
+      color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+            .nav-links {
+                  display: none;
+                  flex-direction: column;
+                  background: #257315;
+            }
+            .menu{
+                  display: flex;
+                  margin: 1rem;
+                  cursor: pointer;
+                  height: 40px;
+                  width: 40px;
+            }
+            .home_sec {
+                  min-height: 85vh;
+            }
+            nav img{
+                  width: 120px;
+            }
+            .home_info {
+                  width: 350px;
+            }
+            .home_info h1{
+                  font-size: 25px;
+            }
+            .home_info p2{
+                  font-size: 13px;
+            }
+            .btn {
+                  display: flex;
+                  flex-direction: column;
+                  padding: 5px 10px;
+            }
+            .About_sec{
+                  grid-template-columns: 1fr;
+            }
+            .about_contnt p{
+                  font-size: 12px;
+                  font-family: Arial, Helvetica, sans-serif;
+            }
+            .about_contnt {
+                  padding: 1.2rem;
+            }
+            .skills-sec h2{
+                  margin: 1rem;
+                  text-decoration: underline;
+            }
+            .skills-sec{
+                  padding: 10px;
+            }
+            .sk-container{
+                  grid-template-columns: 1fr;
+                  gap: 10px;
+                  width: 100%;
+            }
+            .project-container{
+                  grid-template-columns: 1fr;
+                  padding: 1rem;
+            }
+            .group{
+                  font-size: 10px
+            }
+            .footer_info{
+                  grid-template-columns: 1fr;
+            }
+      }
